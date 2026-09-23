@@ -28,10 +28,9 @@ async function main() {
     process.exit(1);
   }
 
-  const fields = ['uri','name','description','duration','created_time','stats.plays','tags.name','pictures.sizes','player_embed_url','metadata.connections.likes.total','metadata.connections.comments.total'].join(',');
+  const fields = ['uri','name','description','duration','created_time','modified_time','stats.plays','tags.name','pictures.sizes','player_embed_url','metadata.connections.likes.total','metadata.connections.comments.total'].join(',');
   const videosRes = await vimeoGet(`https://api.vimeo.com${sample.uri}/videos?per_page=100&fields=${fields}`);
 
- 
   const result = videosRes.data.map(v => {
     const id = v.uri.split('/').pop();
     const bestPic = (v.pictures && v.pictures.sizes || []).slice(-1)[0]?.link || '';
@@ -44,6 +43,7 @@ async function main() {
       id, title, company,
       description: v.description || '',
       date: (v.created_time || '').slice(0, 10).replace(/-/g, '.'),
+      modifiedDate: (v.modified_time || '').slice(0, 10).replace(/-/g, '.'),
       views: (v.stats && v.stats.plays) || 0,
       likes, comments,
       duration: `${mins}:${secs}`,
