@@ -37,11 +37,14 @@ async function main() {
     const mins = Math.floor((v.duration || 0) / 60);
     const secs = String((v.duration || 0) % 60).padStart(2, '0');
     const { company, title } = splitTitle(v.name);
+    const likes = (v.metadata && v.metadata.connections && v.metadata.connections.likes && v.metadata.connections.likes.total) || 0;
+    const comments = (v.metadata && v.metadata.connections && v.metadata.connections.comments && v.metadata.connections.comments.total) || 0;
     return {
       id, title, company,
       description: v.description || '',
       date: (v.created_time || '').slice(0, 10).replace(/-/g, '.'),
       views: (v.stats && v.stats.plays) || 0,
+      likes, comments,
       duration: `${mins}:${secs}`,
       tags: (v.tags || []).map(t => `#${t.name}`),
       thumbnail: bestPic,
