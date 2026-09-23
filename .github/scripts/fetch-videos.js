@@ -31,6 +31,20 @@ async function main() {
   const fields = ['uri','name','description','duration','created_time','stats.plays','tags.name','pictures.sizes','player_embed_url','metadata.connections.likes.total','metadata.connections.comments.total'].join(',');
   const videosRes = await vimeoGet(`https://api.vimeo.com${sample.uri}/videos?per_page=100&fields=${fields}`);
 
+  // ▼▼▼ 디버그용: 여기서부터 =====================================
+  console.log('\n=== DEBUG: project-list vs single-fetch 비교 ===');
+  for (const v of videosRes.data) {
+    const testId = v.uri.split('/').pop();
+    const single = await vimeoGet(`https://api.vimeo.com/videos/${testId}?fields=name,description`);
+    console.log(
+      `[${testId}] "${v.name}"`,
+      '\n  project-list description:', JSON.stringify(v.description),
+      '\n  single-fetch  description:', JSON.stringify(single.description)
+    );
+  }
+  console.log('=== DEBUG 끝 ===\n');
+  // ▲▲▲ 디버그용: 여기까지 (원인 확인되면 이 블록 통째로 지우고 실행하세요) ===
+
   const result = videosRes.data.map(v => {
     const id = v.uri.split('/').pop();
     const bestPic = (v.pictures && v.pictures.sizes || []).slice(-1)[0]?.link || '';
