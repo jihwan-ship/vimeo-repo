@@ -1,9 +1,12 @@
 name: Update Vimeo videos
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: '0 * * * *'   # 매시간 정각(UTC) 실행 — 필요시 나중에 조정 가능
-  workflow_dispatch: {}     # Actions 탭에서 수동으로도 돌릴 수 있게
+    - cron: '0 * * * *'
+  workflow_dispatch: {}
 
 jobs:
   update:
