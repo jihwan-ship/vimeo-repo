@@ -28,7 +28,7 @@ async function main() {
     process.exit(1);
   }
 
-  const fields = ['uri','name','description','duration','created_time','stats.plays','tags.name','pictures.sizes','player_embed_url'].join(',');
+  const fields = ['uri','name','description','duration','created_time','stats.plays','tags.name','pictures.sizes','player_embed_url','metadata.connections.likes.total','metadata.connections.comments.total'].join(',');
   const videosRes = await vimeoGet(`https://api.vimeo.com${sample.uri}/videos?per_page=100&fields=${fields}`);
 
   const result = videosRes.data.map(v => {
