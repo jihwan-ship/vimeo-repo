@@ -12,13 +12,6 @@ async function vimeoGet(url) {
   return res.json();
 }
 
-// "회사명 - 영상제목" 형식이면 자동으로 분리, 아니면 company는 빈 값으로 남김
-function splitTitle(name) {
-  const idx = (name || '').indexOf(' - ');
-  if (idx === -1) return { company: '', title: name || '' };
-  return { company: name.slice(0, idx).trim(), title: name.slice(idx + 3).trim() };
-}
-
 async function main() {
   const me = await vimeoGet('https://api.vimeo.com/me');
   const projects = await vimeoGet(`https://api.vimeo.com${me.uri}/projects?per_page=100&fields=uri,name`);
@@ -36,7 +29,10 @@ async function main() {
     const bestPic = (v.pictures && v.pictures.sizes || []).slice(-1)[0]?.link || '';
     const mins = Math.floor((v.duration || 0) / 60);
     const secs = String((v.duration || 0) % 60).padStart(2, '0');
-    const { company, title } = splitTitle(v.name);
+    // 회사명 자동 분리 규칙("회사명 - 영상제목")은 사용하지 않는다.
+    // company는 항상 빈 값이고, 화면(ExpoPortal.js)은 비어 있으면 참가사 줄을 그리지 않는다.
+    const company = '';
+    const title = v.name || '';
     const likes = (v.metadata && v.metadata.connections && v.metadata.connections.likes && v.metadata.connections.likes.total) || 0;
     const comments = (v.metadata && v.metadata.connections && v.metadata.connections.comments && v.metadata.connections.comments.total) || 0;
     return {
