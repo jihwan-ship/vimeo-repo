@@ -70,7 +70,7 @@
     "description": "2026년 ICT 산업 진흥을 위한 통합 정책 방향을 제시합니다. 규제 샌드박스를 통한 규제 혁신, 디지털 인재 양성, 그리고 AI 기술 발전을 위한 다양한 지원 프로그램을 소개합니다. 혁신적인 아이디어와 기술이 자유롭게 시험될 수 있도록 지원하며, 미래 산업을 이끌어갈 핵심 인재 양성에 집중합니다.",
     "date": "2026.09.23",
     "modifiedDate": "2026.09.28",
-    "views": 0,
+    "views": 1,
     "likes": 0,
     "comments": 0,
     "duration": "10:40",
@@ -152,16 +152,22 @@
   },
   {
     "id": "1229388044",
-    "title": "SW융합본부",
+    "title": "소프트웨어융합과 2026년 비전 제시",
     "company": "",
-    "description": "테스트",
+    "description": "소프트웨어융합과에서 2026년까지 'Software Defined X(SDX)'를 통해 서비스 혁신을 선도합니다. XaaS 선도 프로젝트, 오픈소스 AI 소프트웨어 개발 지원, AI와 가상융합의 동반 성장을 위한 다양한 지원책을 소개합니다. 또한, 공공 소프트웨어 사업의 법률 및 제도적 기반을 강화하여 IT 산업 발전을 촉진합니다.",
     "date": "2026.09.23",
     "modifiedDate": "2026.09.28",
     "views": 0,
     "likes": 0,
     "comments": 0,
     "duration": "16:23",
-    "tags": [],
+    "tags": [
+      "#소프트웨어융합",
+      "#SDX",
+      "#AI",
+      "#가상융합",
+      "#기술지원"
+    ],
     "thumbnail": "https://i.vimeocdn.com/video/2204034401-46884ee0a5e563033e6dfc23113b2ba753273a00ea1bebbf05a0e1fea2b01e7b-d_1920x1080?&r=pad&region=us",
     "embedUrl": "https://player.vimeo.com/video/1229388044?h=5199dc6c56&badge=0&autopause=0&player_id=0&app_id=58479"
   },
@@ -188,16 +194,22 @@
   },
   {
     "id": "1229388040",
-    "title": "AI반도체지원본부",
+    "title": "AI 반도체 상용화 지원 사업 소개",
     "company": "",
-    "description": "",
+    "description": "AI 반도체 상용화를 위한 정부 지원 사업을 소개합니다. 칩 제조사부터 디바이스, AI 모델, 서비스 기업까지 전방위적인 지원을 통해 국내 NPU 기술의 글로벌 경쟁력을 강화합니다. 설계, 시제품 제작, 양산, 해외 진출까지 이어지는 가치 사슬 전반에 걸쳐 금융 지원 및 인재 양성을 지원합니다.",
     "date": "2026.09.23",
     "modifiedDate": "2026.09.28",
     "views": 1,
     "likes": 0,
     "comments": 0,
     "duration": "17:47",
-    "tags": [],
+    "tags": [
+      "#AI반도체",
+      "#NPU",
+      "#상용화지원",
+      "#ICT산업",
+      "#정부지원"
+    ],
     "thumbnail": "https://i.vimeocdn.com/video/2204034580-3419d16fe2292853f1b62aa0410a55fbe9257536fa164fa873ceb32455983258-d_1920x1080?&r=pad&region=us",
     "embedUrl": "https://player.vimeo.com/video/1229388040?h=5640c43310&badge=0&autopause=0&player_id=0&app_id=58479"
   }
