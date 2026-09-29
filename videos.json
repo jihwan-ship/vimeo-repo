@@ -18,7 +18,11 @@
       "#사업설명회"
     ],
     "thumbnail": "https://i.vimeocdn.com/video/2204035485-1c4b96613f4e171a633f9450653d18183eb2b832cffb5d1d7ecd1a7f10755234-d_1920x1080?&r=pad&region=us",
-    "embedUrl": "https://player.vimeo.com/video/1229388891?h=07030ce90a&badge=0&autopause=0&player_id=0&app_id=58479"
+    "embedUrl": "https://player.vimeo.com/video/1229388891?h=07030ce90a&badge=0&autopause=0&player_id=0&app_id=58479",
+    "sortRank": {
+      "date": 0,
+      "alphabetical": 1
+    }
   },
   {
     "id": "1229388794",
@@ -39,7 +43,11 @@
       "#ICT융합사업"
     ],
     "thumbnail": "https://i.vimeocdn.com/video/2204035300-9a2f6a3362433d39f2eaf529cf6757b84e1f809d36a1e4a4abef65c3713510dc-d_1920x1080?&r=pad&region=us",
-    "embedUrl": "https://player.vimeo.com/video/1229388794?h=1fe0f5832f&badge=0&autopause=0&player_id=0&app_id=58479"
+    "embedUrl": "https://player.vimeo.com/video/1229388794?h=1fe0f5832f&badge=0&autopause=0&player_id=0&app_id=58479",
+    "sortRank": {
+      "date": 1,
+      "alphabetical": 3
+    }
   },
   {
     "id": "1229388698",
@@ -48,7 +56,7 @@
     "description": "본 영상은 지역의 AI 및 디지털 기술 혁신을 위한 지역 AX 본부의 전략을 소개합니다. 서비스 격차 해소와 인구 문제 해결을 목표로 하며, AI 및 소프트웨어 기업을 위한 '놀이터'를 조성합니다. 지역 특화 산업과 AI를 결합한 혁신, 대규모 R&D 프로젝트, 그리고 충남, 강원, 제주 등 소외 지역까지 AX 혜택 확대를 위한 계획을 상세히 다룹니다.",
     "date": "2026.09.23",
     "modifiedDate": "2026.09.29",
-    "views": 44,
+    "views": 48,
     "likes": 0,
     "comments": 0,
     "duration": "19:20",
@@ -61,7 +69,11 @@
       "#산업융합"
     ],
     "thumbnail": "https://i.vimeocdn.com/video/2204064174-11661a73ec0c81c5e33aa7b09430d0520344c9694042c40d96a638032fce455e-d_1920x1080?&r=pad&region=us",
-    "embedUrl": "https://player.vimeo.com/video/1229388698?h=7811b9fb99&badge=0&autopause=0&player_id=0&app_id=58479"
+    "embedUrl": "https://player.vimeo.com/video/1229388698?h=7811b9fb99&badge=0&autopause=0&player_id=0&app_id=58479",
+    "sortRank": {
+      "date": 2,
+      "alphabetical": 9
+    }
   },
   {
     "id": "1229388543",
@@ -82,7 +94,11 @@
       "#미래산업"
     ],
     "thumbnail": "https://i.vimeocdn.com/video/2204035008-2b639d58e912656e7867fb78598ee13c7bda96c1785038e41faf1fc6ab042d26-d_1920x1080?&r=pad&region=us",
-    "embedUrl": "https://player.vimeo.com/video/1229388543?h=4f1fe7392b&badge=0&autopause=0&player_id=0&app_id=58479"
+    "embedUrl": "https://player.vimeo.com/video/1229388543?h=4f1fe7392b&badge=0&autopause=0&player_id=0&app_id=58479",
+    "sortRank": {
+      "date": 3,
+      "alphabetical": 2
+    }
   },
   {
     "id": "1229388541",
@@ -103,7 +119,11 @@
       "#디지털전환"
     ],
     "thumbnail": "https://i.vimeocdn.com/video/2204035173-888f3ea704772bc182a4df17d4fd2595566512e7a39233167d79058aab6d8fd8-d_1920x1080?&r=pad&region=us",
-    "embedUrl": "https://player.vimeo.com/video/1229388541?h=843136799a&badge=0&autopause=0&player_id=0&app_id=58479"
+    "embedUrl": "https://player.vimeo.com/video/1229388541?h=843136799a&badge=0&autopause=0&player_id=0&app_id=58479",
+    "sortRank": {
+      "date": 4,
+      "alphabetical": 5
+    }
   },
   {
     "id": "1229388407",
@@ -112,7 +132,7 @@
     "description": "본 영상은 2026년 정보통신기술(ICT) 산업의 사업 방향을 제시하며, 국내 기업의 해외 진출과 해외 기업의 국내 유치를 위한 전략을 상세히 설명합니다. 총 700억 원 규모의 예산으로 20개국 이상에서 250개 이상의 기업을 지원하며, 인공지능(AI) 분야의 글로벌 협력 및 스타트업 육성에 중점을 둡니다. 다양한 지원 프로그램을 통해 기업의 성장과 글로벌 경쟁력 강화를 목표로 합니다.",
     "date": "2026.09.23",
     "modifiedDate": "2026.09.29",
-    "views": 27,
+    "views": 31,
     "likes": 0,
     "comments": 0,
     "duration": "10:37",
@@ -127,7 +147,11 @@
       "#기술혁신"
     ],
     "thumbnail": "https://i.vimeocdn.com/video/2204034860-e39d81fe815a2416704aaba9accdef5e35426582097a6b299f0b372bb0eae315-d_1920x1080?&r=pad&region=us",
-    "embedUrl": "https://player.vimeo.com/video/1229388407?h=e1764c9c67&badge=0&autopause=0&player_id=0&app_id=58479"
+    "embedUrl": "https://player.vimeo.com/video/1229388407?h=e1764c9c67&badge=0&autopause=0&player_id=0&app_id=58479",
+    "sortRank": {
+      "date": 5,
+      "alphabetical": 0
+    }
   },
   {
     "id": "1229388048",
@@ -148,7 +172,11 @@
       "#AI생태계"
     ],
     "thumbnail": "https://i.vimeocdn.com/video/2204034752-39b1f51e994413df999342a89b51eb80615a2c0d0917a51cfbfb57a7cad09c3f-d_1920x1080?&r=pad&region=us",
-    "embedUrl": "https://player.vimeo.com/video/1229388048?h=54a711428e&badge=0&autopause=0&player_id=0&app_id=58479"
+    "embedUrl": "https://player.vimeo.com/video/1229388048?h=54a711428e&badge=0&autopause=0&player_id=0&app_id=58479",
+    "sortRank": {
+      "date": 6,
+      "alphabetical": 6
+    }
   },
   {
     "id": "1229388044",
@@ -169,7 +197,11 @@
       "#기술지원"
     ],
     "thumbnail": "https://i.vimeocdn.com/video/2204034401-46884ee0a5e563033e6dfc23113b2ba753273a00ea1bebbf05a0e1fea2b01e7b-d_1920x1080?&r=pad&region=us",
-    "embedUrl": "https://player.vimeo.com/video/1229388044?h=5199dc6c56&badge=0&autopause=0&player_id=0&app_id=58479"
+    "embedUrl": "https://player.vimeo.com/video/1229388044?h=5199dc6c56&badge=0&autopause=0&player_id=0&app_id=58479",
+    "sortRank": {
+      "date": 7,
+      "alphabetical": 8
+    }
   },
   {
     "id": "1229388041",
@@ -190,7 +222,11 @@
       "#미래전략"
     ],
     "thumbnail": "https://i.vimeocdn.com/video/2204079976-56097dc04459bb57a87356e40864f3dec846cf62d12be6005e2b412eecffe346-d_1920x1080?&r=pad&region=us",
-    "embedUrl": "https://player.vimeo.com/video/1229388041?h=35bf2cafaa&badge=0&autopause=0&player_id=0&app_id=58479"
+    "embedUrl": "https://player.vimeo.com/video/1229388041?h=35bf2cafaa&badge=0&autopause=0&player_id=0&app_id=58479",
+    "sortRank": {
+      "date": 8,
+      "alphabetical": 4
+    }
   },
   {
     "id": "1229388040",
@@ -211,6 +247,10 @@
       "#정부지원"
     ],
     "thumbnail": "https://i.vimeocdn.com/video/2204034580-3419d16fe2292853f1b62aa0410a55fbe9257536fa164fa873ceb32455983258-d_1920x1080?&r=pad&region=us",
-    "embedUrl": "https://player.vimeo.com/video/1229388040?h=5640c43310&badge=0&autopause=0&player_id=0&app_id=58479"
+    "embedUrl": "https://player.vimeo.com/video/1229388040?h=5640c43310&badge=0&autopause=0&player_id=0&app_id=58479",
+    "sortRank": {
+      "date": 9,
+      "alphabetical": 7
+    }
   }
 ]
